@@ -1,0 +1,62 @@
+.PillPackIngredients {
+  padding: 1.25rem;
+//   margin-left: 1.25rem;
+//   margin-right: 1.25rem;
+  background: var(--white);
+
+  p {
+    span {
+      display: inline-block;
+      /* font-weight: 700; */
+      width: 5.6rem;
+    }
+  }
+
+  .icon {
+    font-family: "Averta", sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    position: relative;
+    padding-left: 33px;
+    color: var(--bazeblue) !important;
+    margin-bottom: 1.5rem !important;
+
+    &:before {
+      width: 26px;
+      height: 26px;
+      position: absolute;
+      left: 0px;
+      top: -4px;
+    }
+  }
+
+  .icon-nocolors {
+    &:before {
+      content: url('./icons/icon-ingred-nocolors.svg');
+    }
+  }
+  .icon-vegan {
+    &:before {
+      content:url('./icons/icon-ingred-vegan.svg');
+    }
+  }
+  .icon-gmofree {
+    &:before {
+      content: url('./icons/icon-ingred-gmofree.svg');
+    }
+  }
+  .icon-lactosefree {
+    &:before {
+      content: url('./icons/icon-ingred-lactosefree.svg');
+    }
+  }
+  .icon-glutenfree {
+    &:before {
+      content: url('./icons/icon-ingred-glutenfree.svg');
+    }
+  }
+
+  .pill-image {
+    width: 200px;
+  }
+}

@@ -1,0 +1,243 @@
+.ui.left.aligned.header.PillPackOverview {
+  &__main-header {
+    margin-bottom: 14px;
+    margin-top: 20px;
+    font-size: 21px;
+    text-align: center;
+
+    @media screen and (min-width: 1040px) {
+      font-size: 34px;
+      text-align: left;
+      margin-top: 0;
+    }
+  }
+}
+
+.pillpack-container {
+  background-color: var(--lightgrey);
+  padding: 0 0 25px 0;
+
+  @media screen and (min-width: 1040px) {
+    background-color: #f5f5f5;
+    padding: 40px 25px;
+  }
+
+  @media screen and (min-width: 1180px) {
+    padding: 45px 50px;
+  }
+
+  .ui.grid {
+    margin: 0;
+  }
+
+  > div > .ui.stackable.grid {
+    margin: 0;
+
+    > .row {
+      padding-top: 0;
+
+      @media screen and (min-width: 1040px) {
+        padding-top: 0.5rem;
+      }
+
+      @media screen and (min-width: 1180px) {
+        padding-top: 1rem;
+      }
+
+      > .column {
+        @media screen and (max-width: 1039px) {
+          padding: 0 !important;
+          width: 100% !important;
+          margin: 0 0 !important;
+          box-shadow: none !important;
+        }
+
+        @media screen and (min-width: 1040px) {
+          padding-right: 0.5rem;
+        }
+
+        @media screen and (min-width: 1180px) {
+          padding-right: 1rem;
+        }
+
+        &:first-of-type {
+          padding-left: 0;
+        }
+
+        &:last-of-type {
+          padding-right: 0;
+        }
+      }
+
+      .pillpack-subcontainer {
+        border-radius: 3px;
+        padding: 30px 20px;
+        background: #fff;
+
+        @media screen and (min-width: 1180px) {
+          padding: 40px 46px;
+        }
+
+        &.info-subcontainer {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          // background: #FFF;
+
+          @media screen and (min-width: 1040px) {
+            flex-direction: row;
+          }
+
+          @media screen and (max-width: 1039px) {
+            padding: 0;
+          }
+
+          .info-text {
+            order: 2;
+            font-weight: 300;
+            padding: 20px;
+            width: 100%;
+
+            @media screen and (min-width: 1040px) {
+              order: 1;
+              width: 60%;
+              padding: 10px;
+            }
+          }
+
+          .pp-image-container {
+            order: 1;
+            background: #fff;
+            width: 100%;
+            text-align: center;
+            padding: 0;
+            margin-top: 20px;
+
+            img {
+              max-width: 240px;
+            }
+
+            @media screen and (min-width: 1040px) {
+              order: 2;
+              background: none;
+              margin-bottom: 0;
+              padding: 0 30px;
+              width: 40%;
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  h2.ui.header {
+    font-size: 26px;
+
+    @media screen and (min-width: 1040px) {
+      font-size: 34px;
+    }
+  }
+
+  h3,
+  h3.ui.header {
+    font-size: 26px;
+  }
+
+  h4,
+  h4.ui.header {
+    font-size: 21px;
+  }
+
+  h5,
+  h5.ui.header {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  ul {
+    font-weight: 300;
+  }
+
+  .lab-container {
+    .lab-result {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      padding: 16px 20px;
+      margin-bottom: 14px;
+      max-width: 400px;
+      cursor: pointer;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    .left {
+      display: flex;
+
+      > div {
+        margin-left: 32px;
+
+        p {
+          margin: 0;
+
+          &.value {
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 4px;
+          }
+
+          i.icon {
+            line-height: 10px;
+          }
+        }
+      }
+    }
+
+    img.chevron {
+      height: 16px;
+    }
+  }
+
+  > div > div.ui.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    flex-direction: column;
+    position: relative;
+
+    @media screen and (max-width: 1039px) {
+      margin: 0 !important;
+      
+    }
+
+    @media screen and (min-width: 1040px) {
+      background-color: none;
+      flex-direction: row;
+    }
+  }
+}
+
+.is-demo {
+  .pillpack-container > div > div.ui.container {
+    padding-top: 36px;
+
+    @media screen and (min-width: 1040px) {
+      padding-top: 0;
+    }
+  }
+
+  .ui.left.aligned.header.PillPackOverview__main-header {
+    margin-top: 0;
+  }
+}
+
+.padded {
+  margin-left: 20px;
+  margin-right: 20px;
+}

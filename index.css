@@ -1,0 +1,25 @@
+.ui.center.aligned.header.PillPacksOverview__main-header {
+  padding: 1em 0 0.5em; }
+  @media screen and (min-width: 768px) {
+    .ui.center.aligned.header.PillPacksOverview__main-header {
+      padding: 1.5em 0 0.5em; } }
+  .ui.center.aligned.header.PillPacksOverview__main-header--more-space-below {
+    margin-bottom: 2em; }
+
+.pillpacks-grid .pill-pack-image {
+  min-height: 118px; }
+
+.ui.segment.PillPacksOverview__no-pillpack {
+  margin: 5em auto 0;
+  max-width: 450px; }
+
+.app .ui.center.aligned.header.PillPacksOverview__main-header {
+  padding: 1em 0.75em 0 0.75em; }
+
+.hero-wrapper {
+  width: 94%;
+  max-width: 900px; }
+
+@media (max-width: 767px) {
+  .subheader .inner p.title {
+    font-size: 30px; } }

@@ -1,0 +1,46 @@
+.PillPackSliderCard {
+  display: flex;
+  width: 100%;
+  // width: 16rem;
+  // margin-left: 1.25rem;
+  // padding-bottom: 2rem;
+  // &:last-child {
+  //   margin-right: 1.25rem;
+  // }
+
+  /* margin-top: 1rem; */
+
+  .ui.card {
+    @media screen and (min-width: 1040px) {
+      width: 100%;
+    }
+
+    .content>.image {
+      margin-left: 0 !important;
+      margin-bottom: 1.25rem !important;
+      padding-bottom: 0 !important
+    }
+  }
+
+  .header {
+    font-family: "Averta", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.56;
+    color: var(--bazeblue)
+  }
+
+  .content {
+    padding: 1.25rem;
+    /* height: 12.5rem; */
+    font-family: "Averta", sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+  }
+
+  .vital-icon {
+    display: inline-block;
+    height: 2rem;
+    width: auto;
+  }
+}

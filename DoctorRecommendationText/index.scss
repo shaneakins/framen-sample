@@ -1,0 +1,18 @@
+@import 'styles/colors.scss';
+
+.DoctorRecommendationText {
+  
+  width: 90%;
+  max-width: 1200px;
+  margin: 60px auto 20px auto;
+  text-align: center;
+ 
+  p {
+    color: var(--bazeblue30);
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 767px) {
+    width: 80%;
+  }
+}

@@ -1,0 +1,163 @@
+.ui.left.aligned.header.PillPackOverview__main-header {
+  margin-bottom: 14px;
+  margin-top: 20px;
+  font-size: 21px;
+  text-align: center; }
+  @media screen and (min-width: 1040px) {
+    .ui.left.aligned.header.PillPackOverview__main-header {
+      font-size: 34px;
+      text-align: left;
+      margin-top: 0; } }
+
+.pillpack-container {
+  background-color: var(--lightgrey);
+  padding: 0 0 25px 0; }
+  @media screen and (min-width: 1040px) {
+    .pillpack-container {
+      background-color: #f5f5f5;
+      padding: 40px 25px; } }
+  @media screen and (min-width: 1180px) {
+    .pillpack-container {
+      padding: 45px 50px; } }
+  .pillpack-container .ui.grid {
+    margin: 0; }
+  .pillpack-container > div > .ui.stackable.grid {
+    margin: 0; }
+    .pillpack-container > div > .ui.stackable.grid > .row {
+      padding-top: 0; }
+      @media screen and (min-width: 1040px) {
+        .pillpack-container > div > .ui.stackable.grid > .row {
+          padding-top: 0.5rem; } }
+      @media screen and (min-width: 1180px) {
+        .pillpack-container > div > .ui.stackable.grid > .row {
+          padding-top: 1rem; } }
+      @media screen and (max-width: 1039px) {
+        .pillpack-container > div > .ui.stackable.grid > .row > .column {
+          padding: 0 !important;
+          width: 100% !important;
+          margin: 0 0 !important;
+          box-shadow: none !important; } }
+      @media screen and (min-width: 1040px) {
+        .pillpack-container > div > .ui.stackable.grid > .row > .column {
+          padding-right: 0.5rem; } }
+      @media screen and (min-width: 1180px) {
+        .pillpack-container > div > .ui.stackable.grid > .row > .column {
+          padding-right: 1rem; } }
+      .pillpack-container > div > .ui.stackable.grid > .row > .column:first-of-type {
+        padding-left: 0; }
+      .pillpack-container > div > .ui.stackable.grid > .row > .column:last-of-type {
+        padding-right: 0; }
+      .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer {
+        border-radius: 3px;
+        padding: 30px 20px;
+        background: #fff; }
+        @media screen and (min-width: 1180px) {
+          .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer {
+            padding: 40px 46px; } }
+        .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer.info-subcontainer {
+          display: flex;
+          align-items: center;
+          flex-direction: column; }
+          @media screen and (min-width: 1040px) {
+            .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer.info-subcontainer {
+              flex-direction: row; } }
+          @media screen and (max-width: 1039px) {
+            .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer.info-subcontainer {
+              padding: 0; } }
+          .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer.info-subcontainer .info-text {
+            order: 2;
+            font-weight: 300;
+            padding: 20px;
+            width: 100%; }
+            @media screen and (min-width: 1040px) {
+              .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer.info-subcontainer .info-text {
+                order: 1;
+                width: 60%;
+                padding: 10px; } }
+          .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer.info-subcontainer .pp-image-container {
+            order: 1;
+            background: #fff;
+            width: 100%;
+            text-align: center;
+            padding: 0;
+            margin-top: 20px; }
+            .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer.info-subcontainer .pp-image-container img {
+              max-width: 240px; }
+            @media screen and (min-width: 1040px) {
+              .pillpack-container > div > .ui.stackable.grid > .row .pillpack-subcontainer.info-subcontainer .pp-image-container {
+                order: 2;
+                background: none;
+                margin-bottom: 0;
+                padding: 0 30px;
+                width: 40%;
+                margin-top: 0; } }
+  .pillpack-container h2.ui.header {
+    font-size: 26px; }
+    @media screen and (min-width: 1040px) {
+      .pillpack-container h2.ui.header {
+        font-size: 34px; } }
+  .pillpack-container h3,
+  .pillpack-container h3.ui.header {
+    font-size: 26px; }
+  .pillpack-container h4,
+  .pillpack-container h4.ui.header {
+    font-size: 21px; }
+  .pillpack-container h5,
+  .pillpack-container h5.ui.header {
+    font-size: 16px;
+    margin-top: 10px; }
+  .pillpack-container ul {
+    font-weight: 300; }
+  .pillpack-container .lab-container .lab-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 16px 20px;
+    margin-bottom: 14px;
+    max-width: 400px;
+    cursor: pointer; }
+    .pillpack-container .lab-container .lab-result:last-of-type {
+      margin-bottom: 0; }
+  .pillpack-container .lab-container .left {
+    display: flex; }
+    .pillpack-container .lab-container .left > div {
+      margin-left: 32px; }
+      .pillpack-container .lab-container .left > div p {
+        margin: 0; }
+        .pillpack-container .lab-container .left > div p.value {
+          font-size: 12px;
+          font-weight: 300;
+          margin-top: 4px; }
+        .pillpack-container .lab-container .left > div p i.icon {
+          line-height: 10px; }
+  .pillpack-container .lab-container img.chevron {
+    height: 16px; }
+  .pillpack-container > div > div.ui.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    flex-direction: column;
+    position: relative; }
+    @media screen and (max-width: 1039px) {
+      .pillpack-container > div > div.ui.container {
+        margin: 0 !important; } }
+    @media screen and (min-width: 1040px) {
+      .pillpack-container > div > div.ui.container {
+        background-color: none;
+        flex-direction: row; } }
+
+.is-demo .pillpack-container > div > div.ui.container {
+  padding-top: 36px; }
+  @media screen and (min-width: 1040px) {
+    .is-demo .pillpack-container > div > div.ui.container {
+      padding-top: 0; } }
+
+.is-demo .ui.left.aligned.header.PillPackOverview__main-header {
+  margin-top: 0; }
+
+.padded {
+  margin-left: 20px;
+  margin-right: 20px; }

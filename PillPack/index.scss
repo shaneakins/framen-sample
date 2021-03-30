@@ -1,0 +1,23 @@
+.pillpacks-grid {
+  @media screen and (max-width: 419px) {
+    padding: 0 4px;
+  }
+
+  @media screen and (min-width: 420px) and (max-width: 768px) {
+    margin: 0 auto;
+  }
+
+  > a > div > div:first-of-type {
+    display: flex;
+    min-height: 119px;
+    justify-content: center;
+
+    img.pill-pack-image {
+      max-width: 130px;
+      height: auto;
+      width: 100%;
+      align-self: center;
+      min-height: 0;
+    }
+  }
+}
